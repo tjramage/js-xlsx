@@ -18122,7 +18122,7 @@ function parse_zip(zip, opts) {
 		safe_parse_sheet(zip, path, relsPath, props.SheetNames[i], sheetRels, sheets, stype, opts, wb, themes, styles);
 	}
 
-	if(dir.comments) parse_comments(zip, dir.comments, sheets, sheetRels, opts);
+	// if(dir.comments) parse_comments(zip, dir.comments, sheets, sheetRels, opts);
 
 	out = ({
 		Directory: dir,
